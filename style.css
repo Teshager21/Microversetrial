@@ -1,15 +1,175 @@
+
+
 *{
+    font-family: 'Montserrat', sans-serif;
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
-nav ul {
+
+
+#navbar {
+
+  top: 0;
+  left: 0;
+  background-color: #0082e6;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  z-index: 10;
+  position: fixed;
+}
+
+
+.nav-list {
+  margin-left: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list>li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  float: right;
+
+}
+
+ #welcome-section {
+   height: 100vh;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   background-color: #2c3e50;
+    width: 100%;
+
+ }
+ H1 {
+  font-size: 40px;
+  color: white;
+}
+p {
+  color: orange;
+  font-size: 28px;
+
+}
+
+#projects {
+  background-color: grey;
+  padding: 80px 30px;
+}
+
+#projects>h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: orange;
+  font-size: 40px;
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+.project-grid {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  justify-content: space-around;
+}
+
+
+
+.project-grid a {
+  text-decoration: none;
+}
+
+.project-tile {
+  background-color: #2c3e50;
+  border-radius: 2px;
+  list-style: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+
+}
+.project-title {
+  padding: 1.5rem .5rem;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+/*.projects-title {
+  display: flex;
+}*/
+
+.project-img {
+
+  width: 350px;
+  height: 400px;
+}
+
+#links {
+  text-align: center;
+  height: 200px;
+  background-color: darkgrey;
+  display: flex-block;
+  align-items: center;
+  justify-content: space-around;
+
+
+
+}
+
+section>.invitation {
+  font-size: 40px;
+  font-weight: bold;
+  flex-direction: column;
+  padding-bottom: 5px;
+  color: black;
+}
+
+section>.coffee {
+  margin-bottom: 20px;
+}
+
+.github a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.github {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  text-align: center;
+  background-color: grey;
+
+}
+footer p {
+    color: black;
+    font-weight: bold;
+}
+
+
+/*nav ul {
     display:inline-flex;
     justify-content: space-around;
     font-size: 30;
     align-items:center;
     list-style: none;
-   
+
 }
 nav ul li a{
     font-weight: bold;
